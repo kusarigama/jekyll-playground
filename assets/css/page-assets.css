@@ -7137,7 +7137,7 @@ footer Styles / #footer
 	right: 7px;
 	width: 93px;
 	height: 36px;
-	background: url({{site.baseurl}}/images/icons/icon2.png);
+	background: url(/images/icons/icon2.png);
 }
 
 .socialize-holder .footer-social {
