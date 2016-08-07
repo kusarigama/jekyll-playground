@@ -6,7 +6,7 @@
 	<!-- set the viewport width and initial-scale on mobile devices -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- set the title of your site -->
-	<title>Some title</title>
+	<title>{{ page.title}}</title>
 	<!-- ========= Favicon Icons ========= -->
 	<link rel="shortcut icon" href="/images/favicon/favicon.ico">
 	<!-- Standard iPhone Touch Icon-->
@@ -39,7 +39,7 @@
     <div id="pre-loader">
         <div class="loader-holder">
             <div class="frame">
-                <img src="/images/preloader/logo.png" alt="Fekra"/>
+                <img src="/images/preloader/logo.png" alt="{{ page.title}}"/>
                 <div class="spinner7">
                     <div class="circ1"></div>
                     <div class="circ2"></div>
@@ -60,8 +60,8 @@
 							<!-- page logo -->
 							<div class="logo">
 								<a href="#">
-									<img src="/images/logo.png" alt="Fekra" class="img-responsive w-logo">
-									<img src="/images/logo-2.png" alt="Fekra" class="img-responsive b-logo">
+									<img src="/images/logo.png" alt="{{ page.title}}" class="img-responsive w-logo">
+									<img src="/images/logo-2.png" alt="{{ page.title}}" class="img-responsive b-logo">
 								</a>
 							</div>
 							<!-- main navigation of the page -->
